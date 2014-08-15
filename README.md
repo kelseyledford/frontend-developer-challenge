@@ -1,16 +1,13 @@
 # Frontend Developer Challenge #
-
-To better assess a candidates development skills, we would like to provide the following challenge. 
-You have as much time as you'd like though we ask that you not spend more than a few hours.
+In order to assess a candidate's development abilities, we offer the following challenge. 
+Take as much time as you like but we recommend no more than 4 to 6 hours.
 
 ## Instructions ##
-
 1. Fork the project.
 2. Complete the project as described below within your fork.
 3. Push all of your changes to your fork on github and submit a pull request.
 
 ## Project Description ##
-
 One of our specializations at Idea Nerd is building web applications using AngularJS. As a consequence we tend to prefer application
 architectures where the backend functions as an RESTful API server, aggregating and manipulating data, while the frontend focuses
 on presenting data for the user. In lieu of a backend server you've been provided with some JSON files that can take the place
