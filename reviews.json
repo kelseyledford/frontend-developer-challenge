@@ -1,0 +1,72 @@
+[
+    {
+        "_id": "52d1faaacb525ec01730eb12",
+        "businessName": "Taco Town",
+        "reviewerId": "53d1fbbbcb525ec01730eb76",
+        "comment": "Tacos at Taco Town are great!",
+        "rating": "4.5"
+    },
+    {
+        "_id": "52d1faaacb525ec01730eb13",
+        "businessName": "Taco Town",
+        "reviewerId": "53d1fbbbcb525ec01730eb79",
+        "comment": "The BEST food after watching The Little Mermaid.",
+        "rating": "4.5"
+    },
+    {
+        "_id": "52d1faaacb525ec01730eb14",
+        "businessName": "Taco Town",
+        "reviewerId": "53d1fbbbcb525ec01730eb80",
+        "comment": "Had the Tacorrito... its a taco in the shape of a burrito.",
+        "rating": "4"
+    },
+    {
+        "_id": "52d1faaacb525ec01730eb15",
+        "businessName": "Sonny's Secret Samosa Store",
+        "reviewerId": "53d1fbbbcb525ec01730eb78",
+        "comment": "The potato samosa is da' bomb!",
+        "rating": "5"
+    },
+    {
+        "_id": "52d1faaacb525ec01730eb16",
+        "businessName": "Sonny's Secret Samosa Store",
+        "reviewerId": "53d1fbbbcb525ec01730eb79",
+        "comment": "Hated it! The food was pretty delish but the wall color was my nemesis color.",
+        "rating": "1"
+    },
+    {
+        "_id": "52d1faaacb525ec01730eb17",
+        "businessName": "Wendy's Wacky Wallpaper",
+        "reviewerId": "53d1fbbbcb525ec01730eb77",
+        "comment": "The 100% llama wallpaper is too cute!",
+        "rating": "4.5"
+    },
+    {
+        "_id": "52d1faaacb525ec01730eb18",
+        "businessName": "Wendy's Wacky Wallpaper",
+        "reviewerId": "53d1fbbbcb525ec01730eb80",
+        "comment": "They were out of paint?",
+        "rating": "2"
+    },
+    {
+        "_id": "52d1faaacb525ec01730eb19",
+        "businessName": "Lulu's Dog Grooming",
+        "reviewerId": "53d1fbbbcb525ec01730eb79",
+        "comment": "Same as everywhere else.",
+        "rating": "3"
+    },
+    {
+        "_id": "52d1faaacb525ec01730eb20",
+        "businessName": "Lulu's Dog Grooming",
+        "reviewerId": "53d1fbbbcb525ec01730eb78",
+        "comment": "They carry some cool cat toys.",
+        "rating": "4"
+    },
+    {
+        "_id": "52d1faaacb525ec01730eb21",
+        "businessName": "Lulu's Dog Grooming",
+        "reviewerId": "53d1fbbbcb525ec01730eb76",
+        "comment": "They carry cool dog toys.",
+        "rating": "4"
+    }
+]
