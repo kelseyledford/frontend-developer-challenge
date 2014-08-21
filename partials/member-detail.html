@@ -1,0 +1,16 @@
+<h2 class="page-header">{{member.screenName}}</h2>
+
+<p>
+	<em>Name:</em> {{member.firstName}} {{member.lastName}}
+	<br>
+	<em>Location:</em> {{member.location}}
+</p>
+
+<h3 class="page-header">{{member.screenName}}'s Reviews</h3>
+<p ng-repeat="r in memberReview">
+	<img class="stars" ng-src="{{r.rating == '1' && 'images/one_star.png' || r.rating == '2' && 'images/two_stars.png' || r.rating == '3' && 'images/three_stars.png' || r.rating == '4' && 'images/four_stars.png' || r.rating == '4.5' && 'images/fourhalf_stars.png' || r.rating == '5' && 'images/five_stars.png' }}">
+	<br>
+	<a class="business-name" href="#/businesses/{{r.businessName}}">{{r.businessName}}</a>
+	<br>
+	{{r.comment}}
+</ul>

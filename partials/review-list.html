@@ -1,0 +1,16 @@
+<div id="landing-one">
+	<h1 class="logo">Squeal</h1>
+	<img id="logo-image" src="images/pig.png"></img>
+	<em><p id="tagline">These Spots Won't Boar You!</p></em>
+</div>
+
+<div id="landing-two">
+	<h2 class="page-header">Recent Reviews</h2>
+	<p ng-repeat="r in reviews">
+		<img class="stars" ng-src="{{r.rating == '1' && 'images/one_star.png' || r.rating == '2' && 'images/two_stars.png' || r.rating == '3' && 'images/three_stars.png' || r.rating == '4' && 'images/four_stars.png' || r.rating == '4.5' && 'images/fourhalf_stars.png' || r.rating == '5' && 'images/five_stars.png' }}">
+		<br>
+		<a class="business-name" href="#/businesses/{{r.businessName}}">{{r.businessName}}</a> 
+		<br>
+		{{r.comment}}
+	</p>
+</div>

@@ -1,0 +1,44 @@
+<html ng-app="squealApp">
+<head>
+	<title>Squeal</title>
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Muli|Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>
+	<script src="bower_components/angular-resource/angular-resource.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/services.js"></script>
+	<script src="js/filters.js"></script>
+	<script src="bower_components/angular-strap/dist/angular-strap.min.js"></script> 
+	<script src="bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top navbar-custom" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+				</button>
+				<img id="nav-image" src="images/pig.png" /><a class="navbar-brand" id="nav-logo" data-match-route="/" href="#">Squeal</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li data-match-route="/businesses"><a class="navlink" href="#/businesses">Businesses</a></li>
+					<li data-match-route="/members"><a class="navlink" href="#/members">Members</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="wrapper">
+		<div ng-view></div>
+	</div>
+
+</body>
+</html>

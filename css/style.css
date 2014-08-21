@@ -1,0 +1,70 @@
+* {
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+}
+
+p {
+	font-size: 1.05em;
+}
+
+#landing-one {
+	width: 100%;
+	height: 750px;
+	background-color: rgb(255, 245, 246);
+}
+
+#landing-two {
+	background-color: rgb(255, 245, 236);
+	margin-top: -40px;
+	padding-bottom: 10px;
+}
+
+.page-header, .navlink {
+	font-family: 'Oswald', sans-serif;
+}
+
+.logo, .navbar-brand {
+	font-family: 'Lobster', cursive;
+}
+
+#nav-logo {
+	font-size: 2em;
+}
+
+h2 {
+	padding-top: 50px;
+}
+
+#nav-image {
+	float: left;
+	width: 40px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.business-name {
+	font-size: 1.15em;
+}
+
+.logo {
+	font-size: 7em;
+	padding-top: 75px;
+}
+
+#tagline {
+	padding-top: 4%;
+	font-size: 1.75em;
+	margin-bottom: 15%;
+}
+
+#logo-image {
+	margin-bottom: 30px;
+	width: 200px;
+	margin-top: 30px;
+}
+
+.stars {
+	height: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}

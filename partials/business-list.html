@@ -1,0 +1,4 @@
+<h2 class="page-header">Businesses</h2>
+<p ng-repeat="r in reviews | unique: 'businessName' ">
+	<a href="#/businesses/{{r.businessName}}">{{r.businessName}}</a>
+</p>
